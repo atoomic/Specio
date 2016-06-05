@@ -27,6 +27,7 @@ env:
   global:
     - RELEASE_TESTING=1
     - AUTHOR_TESTING=1
+    - TRAVIS_PERL_DEBUG=1
 cache:
   directories:
     - $HOME/perl5
