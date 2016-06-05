@@ -32,3 +32,4 @@ cache:
     - $HOME/perl5
 before_install:
   - eval $(curl https://travis-perl.github.io/init) --auto
+
